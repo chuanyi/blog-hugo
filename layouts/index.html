@@ -1,0 +1,20 @@
+{{ partial "header.html" . }} 
+      <div class="posts">
+      {{ range first 10 .Data.Pages.ByDate.Reverse }}
+  		<div class="summary">
+          <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <div class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+          {{ .Summary }}
+      </div>
+      {{ if .Truncated }}
+      <div class="read-more-link">
+        <a href='{{ .RelPermalink }}'>阅读全文&raquo;</a>
+      </div>
+      {{ end }}
+      {{ if .Next }}
+      <hr>
+      {{ end }}
+      {{ end }}
+      </div>
+      <small class="text-muted">Built with <a href="http://gohugo.io/">Hugo</a>.</small>
+{{ partial "footer.html" . }}

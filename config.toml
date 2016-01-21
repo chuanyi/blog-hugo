@@ -1,0 +1,26 @@
+baseurl = "http://chuanyi.github.io/"
+title = "阿义"
+canonifyurls = true
+[params]
+  author = "Zheng Chuanyi"
+  description = "IT人，乐活主义"
+[[menu.main]]
+    name = "三省吾身"
+    url = "/think"
+    weight = 1
+[[menu.main]]
+    name = "诗情画意"
+    url = "/life"
+    weight = 2
+[[menu.main]]
+    name = "评头论足"
+    url = "/talk"
+    weight = 3
+[[menu.main]]
+    name = "雕虫小技"
+    url = "/tech"
+    weight = 4
+[[menu.main]]
+    name = "关于"
+    url = "/about"
+    weight = 5                
