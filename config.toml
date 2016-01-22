@@ -1,5 +1,5 @@
 baseurl = "http://chuanyi.github.io/"
-title = "阿义"
+title = "传义"
 canonifyurls = true
 [params]
   author = "Zheng Chuanyi"
