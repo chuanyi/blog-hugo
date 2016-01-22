@@ -12,4 +12,6 @@
       &nbsp;<li class="next"><a href="{{.Next.Permalink}}"> {{.Next.Title}}</a></li>
       {{ end }}
     </ul>
+    <div class="ds-thread" data-thread-key="{{.RelPermalink}}" data-title="{{ .Title }}" data-url="{{.Permalink}}"></div>
+    {{ partial "comments.html" . }}
 {{ partial "footer.html" . }}
