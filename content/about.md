@@ -11,6 +11,6 @@ title = "关于我"
 
 坐标泉城，欢迎同行骚扰。
 
++ 微信：talentayee
 + 微博：[@天才阿义](http://weibo.com/u/1652841480)
 + QQ群：[泉城IT社区](http://jq.qq.com/?_wv=1027&k=gA41Nq)
-
