@@ -5,20 +5,20 @@ canonifyurls = true
   author = "Zheng Chuanyi"
   description = "IT人，乐活主义"
 [[menu.main]]
-    name = "三省吾身"
-    url = "/think"
+    name = "技术"
+    url = "/tech"
     weight = 1
 [[menu.main]]
-    name = "诗情画意"
-    url = "/life"
+    name = "产品"
+    url = "/product"
     weight = 2
 [[menu.main]]
-    name = "评头论足"
-    url = "/talk"
+    name = "创业"
+    url = "/starter"
     weight = 3
 [[menu.main]]
-    name = "雕虫小技"
-    url = "/tech"
+    name = "阅读"
+    url = "/read"
     weight = 4
 [[menu.main]]
     name = "关于"
