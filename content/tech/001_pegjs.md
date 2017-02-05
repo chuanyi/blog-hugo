@@ -61,4 +61,4 @@ PEGjs不直接支持左递归文法的问题，在设计DSL时回避即可，其
 
 时间很宝贵，DSL设计完成后，解析代码切勿徒手实现，请用Parser generator，如果是Javascript技术栈，请用PEG.js。
 
-官网链接：[pegjs.org](pegjs.org)
+官网链接：[https://pegjs.org](https://pegjs.org)
